@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Arial', 'sans-serif';
+    background-color: #242424;
+    color: whitesmoke;
+    line-height: 200%;
+    
+}
+
+.header {
+    font-family: 'Trebuchet MS', 'Arial', 'sans-serif';
+    background-color: #5c7c89;
+    color: white;
+    height: 125px;
+    padding-top: 40px;
+    padding-left: 25px;
+
+    
+}
+
+.header h1 {
+    
+    display: inline;
+    font-size: 48px;
+}
+
+.header h1 .tyler {
+    color: #d9dcd6;
+}
+
+h2 {
+    font-size: 45px;
+    
+}
+
+a {
+    text-decoration: none;
+    margin-inline-start: 15px;
+    
+}
+
+a:link {
+    color: whitesmoke;
+    
+}
+
+a:hover {
+    color: black;
+
+}
+
+a:visited {
+ color: grey;
+
+}
+.header nav {
+    
+    margin-top: 25px;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    
+}
+
+.header nav ul {
+    
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline;
+    color: whitesmoke;
+}
+
+
+
+#header-photo {
+   width: 100%;
+   height: auto;
+   
+}
+
+section {
+    display: flex;
+    /* flex-direction: column; */
+    
+    
+}
+
+p {
+    
+    justify-content: center;
+    /* display: contents; */
+    /* border-right: 5px solid; */
+    margin-right: 35px;
+    padding: 30px;
+    flex-basis: 25%;
+}
+
+.section-detail {
+    margin: 20px auto;
+    
+    /* width: 100%; */
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+}
+
+#contact-me ul li {
+    display: inline-flex;
+}
+
+.section-title {
+    font-size: 48px;
+    display: flex;
+    /* border-right: 5px solid; */
+    /* margin-right: 35px;
+    margin-bottom: 10px; */
+    padding: 30px;
+    /* height: 50px; */
+    line-height: 100%;
+    color: #5c7c89;
+    /* flex-basis: 25%; */
+
+}
+
+.section-detail {
+    display: flex;
+}
+
+#about-me {
+    display:flex;
+    line-height: 200%;
+    padding-top: 20px;
+    /* flex-direction: row; */
+   
+}
+
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+#work-container img {
+    border:#5c7c89 solid;
+    width: 700px;
+    height: 400px;
+}
+
+
+
+.content {
+    /* padding-left: 15%;
+    padding-right: 10px; */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+#contact-me {
+    display : inline-flex;
+    flex-wrap: wrap;
+    
+}
+
+.bottom-left {
+    margin-top: -80px;
+    padding: 10px;
+    /* bottom: 16 px; */
+    text-align: left;
+    font-size: 20px;
+    color: whitesmoke;
+    width: 300px;
+    /* left: 2px; */
+    z-index: 1;
+    margin-left: 15px;
+    background-color: #5c7c89;
+    
+}
+
+#portfolio-images {
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    /* margin-bottom: 10px; */
+}
+
+.mern-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.mern-container img {
+    border:#5c7c89 solid;
+    margin-bottom: 10px;
+    
+}
+
+
+.mern-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+#work {
+    display: flex;
+    
+}
+
+
+.project-container-parent {
+    display: flex;
+}
+
+
+.style-container {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  /* <!-- insert #ID for other boxes here to call it separetly  */
